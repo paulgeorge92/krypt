@@ -1,17 +1,16 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import { NavBar, Footer, Loader, Services, Transactions, Welcome } from './components'
+const App = () => {
   return (
-    <div className="App">
-      <h1 class="text-3xl font-bold underline">
-        Krypt Portal
-      </h1>
+    <div className="min-h-screen">
+      <div className="gradienr-bg-welcome">
+        <NavBar></NavBar>
+        <Welcome></Welcome>
+      </div>
+      <Services></Services>
+      <Transactions></Transactions>
+      <Footer></Footer>
     </div>
-  )
+  );
 }
 
 export default App
