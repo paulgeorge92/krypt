@@ -2,7 +2,7 @@ import { NavBar, Footer, Loader, Services, Transactions, Welcome } from './compo
 const App = () => {
   return (
     <div className="min-h-screen">
-      <div className="gradienr-bg-welcome">
+      <div className="gradient-bg-welcome">
         <NavBar></NavBar>
         <Welcome></Welcome>
       </div>
